@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DDADE1204B029B000C2C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDADE0204B029B000C2C65 /* AppDelegate.swift */; };
+		57DDADE3204B029B000C2C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDADE2204B029B000C2C65 /* ViewController.swift */; };
+		57DDADE6204B029B000C2C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DDADE4204B029B000C2C65 /* Main.storyboard */; };
+		57DDADE8204B029B000C2C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DDADE7204B029B000C2C65 /* Assets.xcassets */; };
+		57DDADEB204B029B000C2C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DDADE9204B029B000C2C65 /* LaunchScreen.storyboard */; };
+		57DDADF6204B029B000C2C65 /* infraeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDADF5204B029B000C2C65 /* infraeroTests.swift */; };
+		57DDAE01204B029B000C2C65 /* infraeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE00204B029B000C2C65 /* infraeroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57DDADF2204B029B000C2C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DDADD5204B029A000C2C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DDADDC204B029A000C2C65;
+			remoteInfo = infraero;
+		};
+		57DDADFD204B029B000C2C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DDADD5204B029A000C2C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DDADDC204B029A000C2C65;
+			remoteInfo = infraero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57DDADDD204B029B000C2C65 /* infraero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infraero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDADE0204B029B000C2C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57DDADE2204B029B000C2C65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57DDADE5204B029B000C2C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57DDADE7204B029B000C2C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57DDADEA204B029B000C2C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57DDADEC204B029B000C2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDADF1204B029B000C2C65 /* infraeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infraeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDADF5204B029B000C2C65 /* infraeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infraeroTests.swift; sourceTree = "<group>"; };
+		57DDADF7204B029B000C2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDADFC204B029B000C2C65 /* infraeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infraeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDAE00204B029B000C2C65 /* infraeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infraeroUITests.swift; sourceTree = "<group>"; };
+		57DDAE02204B029B000C2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DDADDA204B029A000C2C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADEE204B029B000C2C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADF9204B029B000C2C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DDADD4204B029A000C2C65 = {
+			isa = PBXGroup;
+			children = (
+				57DDADDF204B029B000C2C65 /* infraero */,
+				57DDADF4204B029B000C2C65 /* infraeroTests */,
+				57DDADFF204B029B000C2C65 /* infraeroUITests */,
+				57DDADDE204B029B000C2C65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57DDADDE204B029B000C2C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DDADDD204B029B000C2C65 /* infraero.app */,
+				57DDADF1204B029B000C2C65 /* infraeroTests.xctest */,
+				57DDADFC204B029B000C2C65 /* infraeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DDADDF204B029B000C2C65 /* infraero */ = {
+			isa = PBXGroup;
+			children = (
+				57DDADE0204B029B000C2C65 /* AppDelegate.swift */,
+				57DDADE2204B029B000C2C65 /* ViewController.swift */,
+				57DDADE4204B029B000C2C65 /* Main.storyboard */,
+				57DDADE7204B029B000C2C65 /* Assets.xcassets */,
+				57DDADE9204B029B000C2C65 /* LaunchScreen.storyboard */,
+				57DDADEC204B029B000C2C65 /* Info.plist */,
+			);
+			path = infraero;
+			sourceTree = "<group>";
+		};
+		57DDADF4204B029B000C2C65 /* infraeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				57DDADF5204B029B000C2C65 /* infraeroTests.swift */,
+				57DDADF7204B029B000C2C65 /* Info.plist */,
+			);
+			path = infraeroTests;
+			sourceTree = "<group>";
+		};
+		57DDADFF204B029B000C2C65 /* infraeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57DDAE00204B029B000C2C65 /* infraeroUITests.swift */,
+				57DDAE02204B029B000C2C65 /* Info.plist */,
+			);
+			path = infraeroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57DDADDC204B029A000C2C65 /* infraero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDAE05204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraero" */;
+			buildPhases = (
+				57DDADD9204B029A000C2C65 /* Sources */,
+				57DDADDA204B029A000C2C65 /* Frameworks */,
+				57DDADDB204B029A000C2C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = infraero;
+			productName = infraero;
+			productReference = 57DDADDD204B029B000C2C65 /* infraero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57DDADF0204B029B000C2C65 /* infraeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDAE08204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraeroTests" */;
+			buildPhases = (
+				57DDADED204B029B000C2C65 /* Sources */,
+				57DDADEE204B029B000C2C65 /* Frameworks */,
+				57DDADEF204B029B000C2C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DDADF3204B029B000C2C65 /* PBXTargetDependency */,
+			);
+			name = infraeroTests;
+			productName = infraeroTests;
+			productReference = 57DDADF1204B029B000C2C65 /* infraeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57DDADFB204B029B000C2C65 /* infraeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDAE0B204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraeroUITests" */;
+			buildPhases = (
+				57DDADF8204B029B000C2C65 /* Sources */,
+				57DDADF9204B029B000C2C65 /* Frameworks */,
+				57DDADFA204B029B000C2C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DDADFE204B029B000C2C65 /* PBXTargetDependency */,
+			);
+			name = infraeroUITests;
+			productName = infraeroUITests;
+			productReference = 57DDADFC204B029B000C2C65 /* infraeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DDADD5204B029A000C2C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aluno;
+				TargetAttributes = {
+					57DDADDC204B029A000C2C65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					57DDADF0204B029B000C2C65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57DDADDC204B029A000C2C65;
+					};
+					57DDADFB204B029B000C2C65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57DDADDC204B029A000C2C65;
+					};
+				};
+			};
+			buildConfigurationList = 57DDADD8204B029A000C2C65 /* Build configuration list for PBXProject "infraero" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57DDADD4204B029A000C2C65;
+			productRefGroup = 57DDADDE204B029B000C2C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DDADDC204B029A000C2C65 /* infraero */,
+				57DDADF0204B029B000C2C65 /* infraeroTests */,
+				57DDADFB204B029B000C2C65 /* infraeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DDADDB204B029A000C2C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDADEB204B029B000C2C65 /* LaunchScreen.storyboard in Resources */,
+				57DDADE8204B029B000C2C65 /* Assets.xcassets in Resources */,
+				57DDADE6204B029B000C2C65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADEF204B029B000C2C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADFA204B029B000C2C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DDADD9204B029A000C2C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDADE3204B029B000C2C65 /* ViewController.swift in Sources */,
+				57DDADE1204B029B000C2C65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADED204B029B000C2C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDADF6204B029B000C2C65 /* infraeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDADF8204B029B000C2C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDAE01204B029B000C2C65 /* infraeroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57DDADF3204B029B000C2C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DDADDC204B029A000C2C65 /* infraero */;
+			targetProxy = 57DDADF2204B029B000C2C65 /* PBXContainerItemProxy */;
+		};
+		57DDADFE204B029B000C2C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DDADDC204B029A000C2C65 /* infraero */;
+			targetProxy = 57DDADFD204B029B000C2C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57DDADE4204B029B000C2C65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DDADE5204B029B000C2C65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57DDADE9204B029B000C2C65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DDADEA204B029B000C2C65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DDAE03204B029B000C2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57DDAE04204B029B000C2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DDAE06204B029B000C2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57DDAE07204B029B000C2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57DDAE09204B029B000C2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infraero.app/infraero";
+			};
+			name = Debug;
+		};
+		57DDAE0A204B029B000C2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infraero.app/infraero";
+			};
+			name = Release;
+		};
+		57DDAE0C204B029B000C2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = infraero;
+			};
+			name = Debug;
+		};
+		57DDAE0D204B029B000C2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = infraeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.infraeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = infraero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DDADD8204B029A000C2C65 /* Build configuration list for PBXProject "infraero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDAE03204B029B000C2C65 /* Debug */,
+				57DDAE04204B029B000C2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDAE05204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDAE06204B029B000C2C65 /* Debug */,
+				57DDAE07204B029B000C2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDAE08204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDAE09204B029B000C2C65 /* Debug */,
+				57DDAE0A204B029B000C2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDAE0B204B029B000C2C65 /* Build configuration list for PBXNativeTarget "infraeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDAE0C204B029B000C2C65 /* Debug */,
+				57DDAE0D204B029B000C2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DDADD5204B029A000C2C65 /* Project object */;
+}

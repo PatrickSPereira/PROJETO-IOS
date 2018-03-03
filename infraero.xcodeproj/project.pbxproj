@@ -14,6 +14,12 @@
 		57DDADEB204B029B000C2C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DDADE9204B029B000C2C65 /* LaunchScreen.storyboard */; };
 		57DDADF6204B029B000C2C65 /* infraeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDADF5204B029B000C2C65 /* infraeroTests.swift */; };
 		57DDAE01204B029B000C2C65 /* infraeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE00204B029B000C2C65 /* infraeroUITests.swift */; };
+		57DDAE0F204B043A000C2C65 /* TableViewCellVoos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE0E204B043A000C2C65 /* TableViewCellVoos.swift */; };
+		57DDAE11204B07E6000C2C65 /* TableViewControllerVoos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE10204B07E6000C2C65 /* TableViewControllerVoos.swift */; };
+		57DDAE13204B1745000C2C65 /* TableViewControllerCampanhia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE12204B1745000C2C65 /* TableViewControllerCampanhia.swift */; };
+		57DDAE15204B1867000C2C65 /* TableViewCellCampanha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE14204B1867000C2C65 /* TableViewCellCampanha.swift */; };
+		57DDAE1B204B2AD9000C2C65 /* TableViewControllerAeroPorto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE1A204B2AD9000C2C65 /* TableViewControllerAeroPorto.swift */; };
+		57DDAE1D204B2C4C000C2C65 /* TableViewCellAeroPorto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDAE1C204B2C4C000C2C65 /* TableViewCellAeroPorto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		57DDADFC204B029B000C2C65 /* infraeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infraeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DDAE00204B029B000C2C65 /* infraeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infraeroUITests.swift; sourceTree = "<group>"; };
 		57DDAE02204B029B000C2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDAE0E204B043A000C2C65 /* TableViewCellVoos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellVoos.swift; sourceTree = "<group>"; };
+		57DDAE10204B07E6000C2C65 /* TableViewControllerVoos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerVoos.swift; sourceTree = "<group>"; };
+		57DDAE12204B1745000C2C65 /* TableViewControllerCampanhia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCampanhia.swift; sourceTree = "<group>"; };
+		57DDAE14204B1867000C2C65 /* TableViewCellCampanha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCampanha.swift; sourceTree = "<group>"; };
+		57DDAE1A204B2AD9000C2C65 /* TableViewControllerAeroPorto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerAeroPorto.swift; sourceTree = "<group>"; };
+		57DDAE1C204B2C4C000C2C65 /* TableViewCellAeroPorto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellAeroPorto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,15 @@
 				57DDADE0204B029B000C2C65 /* AppDelegate.swift */,
 				57DDADE2204B029B000C2C65 /* ViewController.swift */,
 				57DDADE4204B029B000C2C65 /* Main.storyboard */,
+				57DDAE14204B1867000C2C65 /* TableViewCellCampanha.swift */,
+				57DDAE12204B1745000C2C65 /* TableViewControllerCampanhia.swift */,
+				57DDAE10204B07E6000C2C65 /* TableViewControllerVoos.swift */,
+				57DDAE0E204B043A000C2C65 /* TableViewCellVoos.swift */,
 				57DDADE7204B029B000C2C65 /* Assets.xcassets */,
 				57DDADE9204B029B000C2C65 /* LaunchScreen.storyboard */,
 				57DDADEC204B029B000C2C65 /* Info.plist */,
+				57DDAE1C204B2C4C000C2C65 /* TableViewCellAeroPorto.swift */,
+				57DDAE1A204B2AD9000C2C65 /* TableViewControllerAeroPorto.swift */,
 			);
 			path = infraero;
 			sourceTree = "<group>";
@@ -259,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DDAE0F204B043A000C2C65 /* TableViewCellVoos.swift in Sources */,
 				57DDADE3204B029B000C2C65 /* ViewController.swift in Sources */,
+				57DDAE11204B07E6000C2C65 /* TableViewControllerVoos.swift in Sources */,
+				57DDAE1B204B2AD9000C2C65 /* TableViewControllerAeroPorto.swift in Sources */,
+				57DDAE13204B1745000C2C65 /* TableViewControllerCampanhia.swift in Sources */,
+				57DDAE1D204B2C4C000C2C65 /* TableViewCellAeroPorto.swift in Sources */,
+				57DDAE15204B1867000C2C65 /* TableViewCellCampanha.swift in Sources */,
 				57DDADE1204B029B000C2C65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
